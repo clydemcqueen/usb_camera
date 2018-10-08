@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+
+  <name>usb_camera</name>
+  <version>0.1.0</version>
+  <description>Simple USB camera driver</description>
+
+  <maintainer email="clyde@mcqueen.net">Clyde McQueen</maintainer>
+  <license>BSD</license>
+
+  <author>Clyde McQueen</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>cv_bridge</depend>
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+  <depend>sensor_msgs</depend>
+
+</package>
