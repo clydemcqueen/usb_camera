@@ -49,11 +49,11 @@ class CameraTest():
                 self._image_pub.publish(self._cv_bridge.cv2_to_imgmsg(frame, 'bgr8'))
                 frame_num = 0
 
-            cv2.imshow('frame', frame)
-            cv2.waitKey(1)
+            #cv2.imshow('frame', frame)
+            #cv2.waitKey(1)
 
         cap.release()
-        cv2.destroyAllWindows()
+        #cv2.destroyAllWindows()
 
 
 def main(args=None):
